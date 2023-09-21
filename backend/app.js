@@ -16,7 +16,7 @@ app.use(cors());
 const {
   validatePostalCode,
 } = require("./postalCodeValidation/postalCodeValidation");
-const bringApiKey = "de652bab-7397-484f-89c5-641ba0bf1410";
+
 
 app.get("/", (req, res) => {
   res.send("Hello World");
